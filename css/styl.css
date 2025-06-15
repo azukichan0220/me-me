@@ -1,0 +1,411 @@
+/********** 全体設定 **********/
+img {
+  max-width: 100%;
+}
+
+body {
+  max-width: 100%;
+  color: #5d4308;
+  background-image: url(../images/back.jpg); /* パスは適宜変えてね */
+  background-size: cover; /* 画面にフィット */
+  background-position: center; /* 中央寄せ */
+  background-repeat: no-repeat; /* 繰り返さない */
+  background-attachment: fixed; /* 背景を固定（スクロール時に動かない） */
+}
+
+main {
+  max-width: 1200px;
+  height: auto;
+  margin: 7rem auto;
+  font-family: "Noto Serif JP", serif;
+}
+
+h2 {
+  width: 12rem;
+  font-family: "Noto Serif JP", serif;
+  font-size: 2.3rem;
+  font-weight: 700;
+  margin: 0 auto;
+  text-align: center;
+  border-bottom: 2px solid #5d4308;
+  line-height: 4rem;
+}
+
+/********** ヘッダー始まり **********/
+header {
+  /* border: 1px solid blue; */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header .Firstlogo {
+  display: flex;
+  justify-content: space-around;
+}
+
+header .Firstlogo img {
+  width: 100px;
+  margin-bottom: 2rem;
+}
+
+header .Firstlogo h1 {
+  font-size: 32px;
+  font-weight: 800;
+  color: #a78d6b;
+  margin-top: 1rem;
+}
+
+header .Firstlogo p {
+  font-size: 0.8rem;
+}
+
+header nav {
+  padding-left: 2rem;
+  border-left: 1px solid #a78d6b; /* ← 左に細い縦線 */
+  margin-left: 3rem;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header nav ul li {
+  line-height: 4rem;
+}
+
+/* header nav ul .headerlink {
+  width: 90px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+} */
+
+header nav ul .HL {
+  display: flex;
+  gap: 1rem;
+}
+
+/* SNSアイコン画像サイズ */
+header nav ul .HL img {
+  width: 150px;
+  height: auto;
+}
+
+#FV img {
+  width: 80%;
+  height: auto;
+  margin-left: 150px;
+}
+
+header .navview {
+  display: flex;
+}
+
+/********** ヘッダー終わり **********/
+
+/* メイン始まり */
+/* コンセプト */
+main #concept {
+  /* border: 1px solid yellow; */
+  text-align: center;
+}
+
+main #concept img {
+  width: 200px;
+  height: auto;
+  margin: 3rem 0 1rem 0;
+}
+
+main #concept p {
+  text-align: center;
+  font-size: 1.3rem;
+  line-height: 4rem;
+}
+
+/********** ニュース **********/
+main #news {
+  /* border: 1px solid blueviolet; */
+  margin-top: 5rem;
+}
+
+.newsG {
+  /* border: 1px solid green; */
+  width: 100%;
+  height: 280px;
+  overflow: hidden scroll;
+  margin-top: 5rem;
+  color: #333;
+}
+
+.newsBox {
+  border-bottom: 1px solid #5d4308;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.newsBox dt {
+  /* border: 1px solid red; */
+  width: 100px;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+.newsBox p {
+  width: 110px;
+  margin-left: 1rem;
+  font-size: 0.7rem;
+  border: 1px solid #f5f0e1;
+  background-color: #f5f0e1;
+  border-radius: 8px;
+  padding: 0.3rem;
+  text-align: center;
+}
+
+.newsBox .nb {
+  /* border: 1px solid black; */
+  display: flex;
+}
+
+.newsBox dd {
+  /* border: 1px solid blue; */
+  margin: 1rem 1rem 1rem 5rem;
+}
+
+/********** もっと見るボタン **********/
+.newsbuttun {
+  text-align: right;
+  /* margin-top: 1rem; */
+}
+
+.newsbuttun button {
+  background-color: #f5f0e1;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.newsbuttun button:hover {
+  background-color: #e3dbce;
+}
+
+/********** works **********/
+main #works {
+  /* border: 1px solid red; */
+  margin-top: 5rem;
+}
+
+main #works h2 {
+  margin-bottom: 5rem;
+}
+
+/********* swiper **********/
+.swiper {
+  width: 100%;
+  height: 200px; /* 画像サイズに応じて調整 */
+}
+.swiper-slide img {
+  height: auto;
+  width: 100%;
+}
+/* スライドの動き等速 */
+.swiper-wrapper {
+  transition-timing-function: linear;
+}
+
+/********** もっと見るボタン **********/
+.worksbuttun {
+  text-align: right;
+  /* margin-top: 1rem; */
+}
+
+.worksbuttun button {
+  background-color: #f5f0e1;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.worksbuttun button:hover {
+  background-color: #e3dbce;
+}
+
+/********** ギャラリー **********/
+main #gallery {
+  /* border: 1px solid red; */
+  margin-top: 5rem;
+}
+
+main #gallery h2 {
+  margin-bottom: 5rem;
+}
+
+main #gallery .gallery_img {
+  display: flex;
+}
+
+/********** もっと見るボタン **********/
+.gallerybutton {
+  text-align: right;
+  /* margin-top: 1rem; */
+}
+
+.gallerybutton button {
+  background-color: #f5f0e1;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.gallerybutton button:hover {
+  background-color: #e3dbce;
+}
+
+/********** プロフィール **********/
+main #profile {
+  /* border: 1px solid red; */
+  background-color: #fcf6ec;
+  border-radius: 8px;
+  margin: 5rem 0;
+}
+
+main #profile h2 {
+  margin-bottom: 2rem;
+}
+
+main #profile .profile_detail {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+main #profile .profile_detail img {
+  width: 300px;
+  border-radius: 50%;
+  margin-right: 5rem;
+  margin-bottom: 3rem;
+}
+
+main #profile .profile_detail .name00 {
+  display: block;
+  margin-top: 5rem;
+}
+
+main #profile .profile_detail .name00 .name,
+main #profile .profile_detail .name00 .Introductiontext {
+  display: block;
+  margin-bottom: 1rem; /* 余白調整（必要なら） */
+}
+
+main #profile .profile_detail p {
+  font-size: 20px;
+}
+
+/********** リンク **********/
+main #link {
+  /* border: 1px solid red; */
+  margin-top: 5rem;
+  text-align: center;
+}
+
+main #link h2 {
+  margin-top: 2rem;
+}
+
+main #link p {
+  text-align: center;
+  margin: 2rem 0 2rem 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+main #link img {
+  margin-top: 2rem;
+}
+
+/********** コンタクト **********/
+main #contact {
+  /* border: 1px solid red; */
+  margin-top: 5rem;
+}
+
+main #contact h2 {
+  margin-top: 2rem;
+}
+
+main #contact .p p {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+main #contact .contact {
+  text-align: center;
+}
+
+main #contact .contact a img {
+  width: 40px;
+  margin-top: 2rem;
+}
+
+main #contact .contact p {
+  border-bottom: 1px solid #5d4308;
+  width: 20rem;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+/********** だるま戻るボタン **********/
+main .modoru {
+  width: 8%;
+  height: auto;
+  position: fixed;
+  right: 0.5%;
+  bottom: 5%;
+  z-index: 1000;
+}
+
+main .modoru:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 20px #b0c4de(176, 198, 222, 0.959);
+  transition: 0.3s;
+}
+
+/********** フッター **********/
+footer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer_line {
+  border: none;
+  border-top: 1px solid #5d4308; /* 線の色と太さ */
+  margin: 1rem auto; /* 上下の余白 */
+  width: 1200px; /* 必要に応じて幅指定 */
+}
+
+footer nav ul {
+  width: 800px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5rem auto;
+}
+
+footer p {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}

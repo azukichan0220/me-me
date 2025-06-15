@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/destyle.css" />
+    <link rel="stylesheet" href="css/styl.css" />
+    <!-- フォント -->
+    <!-- 英語 -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Savate:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    /> -->
+    <!-- 日本語 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ファビコン -->
+    <link rel="icon" href="images/favicon.ico" />
+    <!-- Instagram -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <title>ME-ME</title>
+  </head>
+  <body>
+    <!-- ヘッダー -->
+    <header>
+      <div class="Firstlogo">
+        <img src="images/logo02.png" alt="ロゴ" />
+        <div class="logoname">
+          <h1>ME-ME</h1>
+          <p>original handmade</p>
+        </div>
+      </div>
+      <div class="navview">
+        <nav>
+          <ul>
+            <li><a href="#FV">top</a></li>
+            <li><a href="#concept">concept</a></li>
+            <li><a href="#news">news</a></li>
+            <li><a href="#works">works</a></li>
+            <li><a href="#gallery">gallery</a></li>
+            <li><a href="#profile">profile</a></li>
+            <li><a href="#link">link</a></li>
+            <li><a href="#contact">contact</a></li>
+            <div class="HL">
+              <li>
+                <a
+                  href="https://www.instagram.com/me_me_original/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="images/Instagram logo.png"
+                    alt="Instagram"
+                    width="90px"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="mailto:me.me.original.handmade@gmail.com?subject=お問い合わせ&body=こんにちは。%0Aお問い合わせ内容をご記入ください。"
+                >
+                  <img src="images/mail.png" alt="mail" class="mail-image" />
+                </a>
+              </li>
+            </div>
+          </ul>
+        </nav>
+        <section id="FV">
+          <img src="images/meme.png" alt="FV" />
+        </section>
+      </div>
+    </header>
+
+    <!-- メイン -->
+    <main>
+      <section id="concept">
+        <h2>concept</h2>
+        <img src="images/logo01.png" alt="ロゴ" />
+        <p>
+          Only for meから名づけました。<br />
+          「私だけのために」という意味で自分だけのお気に入りを<br />
+          見つけるお手伝いができればいいなという想いが込められています。
+        </p>
+      </section>
+
+      <!-- newsのゾーン -->
+      <section id="news">
+        <h2>news</h2>
+        <div class="newsG">
+          <div class="newsBox">
+            <div class="nb">
+              <dt>
+                <time datetime="2025-6-15">2025.6.15</time>
+              </dt>
+              <p>ワークショップ</p>
+            </div>
+            <dd>
+              こども食堂にてワークショップ＆waya-wayaセミオーダー会実施！！＠善通寺市
+              トナリ〜CAFE&LUNCH〜
+            </dd>
+          </div>
+          <div class="newsBox">
+            <div class="nb">
+              <dt>
+                <time datetime="2025-6-08">2026.6.08</time>
+              </dt>
+              <p>マルシェ</p>
+            </div>
+            <dd>
+              図書館マルシェに参加します！！＠まんのう町 まんのう町立図書館
+            </dd>
+          </div>
+          <div class="newsBox">
+            <div class="nb">
+              <dt>
+                <time datetime="2025-5-3">2025.5.3</time>
+              </dt>
+              <p>マルシェ</p>
+            </div>
+            <dd>A&Oマルシェに参加します！！＠坂出市 喫茶【木かげ】</dd>
+          </div>
+
+          <div class="newsBox">
+            <div class="nb">
+              <dt>
+                <time datetime="2025-3-23">2025.3.23</time>
+              </dt>
+              <p>ワークショップ</p>
+            </div>
+            <dd>
+              こども食堂にてワークショップを開催！！＠善通寺市
+              トナリ〜CAFE&LUNCH〜
+            </dd>
+          </div>
+        </div>
+        <!-- もっと見るのボタン　後で＃入れる -->
+        <a href="#">
+          <div class="newsbuttun">
+            <button id="news">
+              <p>news →→→</p>
+            </button>
+          </div>
+        </a>
+      </section>
+
+      <!-- worksのゾーン -->
+      <section id="works">
+        <h2>works</h2>
+        <!-- swiper写真が流れる -->
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="images/marche01.jpg" alt="マルシェ１" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/marche02.png" alt="マルシェ２" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/marche03.png" alt="マルシェ３" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/marche04.png" alt="マルシェ４" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/school01.png" alt="教室１" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/school02.png" alt="教室２" />
+            </div>
+          </div>
+        </div>
+        <!-- もっと見るのボタン　後で＃入れる -->
+        <a href="#">
+          <div class="worksbuttun">
+            <button id="works">
+              <p>works →→→</p>
+            </button>
+          </div>
+        </a>
+      </section>
+
+      <section id="gallery">
+        <h2>gallery</h2>
+        <div class="gallery_img">
+          <img src="images/gallery01.jpg" alt="商品01" />
+          <img src="images/gallery02.jpg" alt="商品02" />
+          <img src="images/gallery03.jpg" alt="商品03" />
+        </div>
+        <!-- もっと見るのボタン　後で＃入れる -->
+        <a href="#">
+          <div class="gallerybutton">
+            <button id="gallery">
+              <p>gallery →→→</p>
+            </button>
+          </div>
+        </a>
+      </section>
+
+      <section id="profile">
+        <h2>profile</h2>
+        <div class="profile_detail">
+          <img src="images/logo03.jpg" alt="プロフィール写真" />
+          <div class="name00">
+            <p class="name">
+              亀井　菜緒<br />
+              kamei nao
+            </p>
+            <p class="Introductiontext">
+              紹介文入れる。紹介文入れる。紹介文入れる。<br />
+              紹介文入れる。紹介文入れる。紹介文入れる。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="link">
+        <h2>link</h2>
+        <p>ハンドメイドショップME-ME</p>
+        <!-- Instagramリンク部分 -->
+        <a
+          href="https://www.instagram.com/me_me_original/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="images/me_me_original.png" alt="Instagram" width="700px" />
+        </a>
+      </section>
+
+      <section id="contact">
+        <h2>contact</h2>
+        <div class="p">
+          <p>
+            ご質問・ご相談などございましたら、下のメールアイコンをクリックしてお問い合わせください。<br />
+            お使いのメールアプリが起動し、メッセージを作成できます。
+          </p>
+        </div>
+        <div class="contact">
+          <a
+            href="mailto:me.me.original.handmade@gmail.com?subject=お問い合わせ&body=こんにちは。%0Aお問い合わせ内容をご記入ください。"
+          >
+            <img src="images/mail.png" alt="mail" class="mail-image" />
+            <p>me.me.original.handmade@gmail.com</p></a
+          >
+        </div>
+      </section>
+      <!-- top戻るボタン -->
+      <div class="modoru">
+        <a href="#FV"><img src="images/logo01.png" alt="トップに戻る" /></a>
+      </div>
+    </main>
+
+    <!-- フッター -->
+    <footer>
+      <hr class="footer_line" />
+      <!-- ↑線入れる -->
+      <nav>
+        <ul>
+          <li><a href="#FV">top</a></li>
+          <li><a href="#concept">concept</a></li>
+          <li><a href="#news">news</a></li>
+          <li><a href="#works">works</a></li>
+          <li><a href="#gallery">gallery</a></li>
+          <li><a href="#profile">profile</a></li>
+          <li><a href="#link">link</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </nav>
+      <p><small>&copy;me-me-original 2025</small></p>
+    </footer>
+    <!-- SwiperのJS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
