@@ -302,7 +302,7 @@ main #profile .profile_detail img {
 
 main #profile .profile_detail .name00 {
   display: block;
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 
 main #profile .profile_detail .name00 .name,
@@ -312,7 +312,8 @@ main #profile .profile_detail .name00 .Introductiontext {
 }
 
 main #profile .profile_detail p {
-  font-size: 20px;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 /********** リンク **********/
@@ -408,4 +409,10 @@ footer p {
   text-align: center;
   margin-top: 5rem;
   margin-bottom: 3rem;
+}
+
+/******************メディアクエリ ******************************/
+@media screen and (max-width: 900px) {
+  #FV img {
+  }
 }
