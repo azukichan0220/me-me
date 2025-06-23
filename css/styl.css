@@ -44,7 +44,7 @@ header .Firstlogo {
 }
 
 header .Firstlogo img {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 100px;
   margin-bottom: 2rem;
 }
