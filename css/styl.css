@@ -44,6 +44,7 @@ header .Firstlogo {
 }
 
 header .Firstlogo img {
+  border: 1px solid red;
   width: 100px;
   margin-bottom: 2rem;
 }
@@ -419,6 +420,10 @@ footer p {
 /********** 900px **********/
 @media screen and (max-width: 900px) {
   /* ヘッダー */
+  header .Firstlogo img {
+    margin-left: -100px;
+  }
+
   header .navview {
     flex-direction: column;
     align-items: center;
@@ -503,6 +508,10 @@ footer p {
     font-size: 1.5rem;
   }
 
+  header .Firstlogo img {
+    margin-left: -50px;
+  }
+
   /* ハンバーガー */
   #drawerButton {
     display: block;
@@ -566,6 +575,15 @@ footer p {
 
   main #profile .profile_detail .name00 p {
     font-size: 0.7rem;
+  }
+
+  .Introductiontext {
+    max-width: 600px; /* お好みで調整してね */
+    width: 90%; /* スマホ対応しやすく */
+    margin: 0 auto; /* 左右中央に配置される！ */
+    text-align: left; /* テキストは左揃え */
+    font-size: 0.7rem;
+    line-height: 2rem;
   }
 
   main #gallery .gallery_img {
