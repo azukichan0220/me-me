@@ -506,7 +506,6 @@ footer p {
     margin: 0 auto;
     padding: 1rem; /* ← 余白を追加 */
     max-width: 90%; /* レスポンシブ対策 */
-    background-color: #f9f9f9; /* 任意：背景色つけると余白が見えやすい */
     border-radius: 8px; /* 任意：角を丸くする */
   }
 
