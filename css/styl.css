@@ -500,6 +500,17 @@ footer p {
   main #profile .profile_detail .name00 {
     margin-top: 0;
   }
+
+  main #contact .p {
+    width: fit-content; /* コンテンツの幅に合わせる */
+    margin: 0 auto; /* 親要素の中で中央寄せ */
+  }
+
+  main #contact .p p {
+    text-align: left; /* テキストは左寄せ */
+    max-width: 600px; /* 任意。テキスト行が長すぎないよう制限 */
+    line-height: 1.6; /* 任意。読みやすさアップ */
+  }
 }
 
 /********** 600px **********/
