@@ -502,8 +502,12 @@ footer p {
   }
 
   main #contact .p {
-    width: fit-content; /* コンテンツの幅に合わせる */
-    margin: 0 auto; /* 親要素の中で中央寄せ */
+    width: fit-content;
+    margin: 0 auto;
+    padding: 1rem; /* ← 余白を追加 */
+    max-width: 90%; /* レスポンシブ対策 */
+    background-color: #f9f9f9; /* 任意：背景色つけると余白が見えやすい */
+    border-radius: 8px; /* 任意：角を丸くする */
   }
 
   main #contact .p p {
